@@ -8,5 +8,5 @@ export class LoginDto {
 
   @ApiProperty({ description: 'password is required' })
   @IsString()
-  password: string;
+  password: string
 }
